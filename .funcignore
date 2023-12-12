@@ -10,3 +10,4 @@ tsconfig.json
 .env
 .nvmrc
 /src
+*.md
