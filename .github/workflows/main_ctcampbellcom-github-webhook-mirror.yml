@@ -40,5 +40,5 @@ jobs:
         with:
           app-name: 'ctcampbellcom-github-webhook-mirror'
           slot-name: 'Production'
-          package: ${{ env.AZURE_FUNCTIONAPP_PACKAGE_PATH }}
+          package: ${{ env.AZURE_FUNCTIONAPP_PACKAGE_PATH }}/dist
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_5637CD9033E84995A382125175E4C507 }}
