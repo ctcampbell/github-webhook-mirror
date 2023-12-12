@@ -4,7 +4,7 @@
     {
       "type": "func",
       "label": "func: host start",
-      "command": "host start --verbose",
+      "command": "host start",
       "problemMatcher": "$func-node-watch",
       "isBackground": true,
       "dependsOn": "npm build (functions)"
