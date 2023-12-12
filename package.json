@@ -7,8 +7,7 @@
     "watch": "tsc -w",
     "clean": "rimraf dist",
     "prestart": "npm run clean && npm run build",
-    "start": "func start",
-    // "test": "jest"
+    "start": "func start"
   },
   "dependencies": {
     "@azure/functions": "^4.0.0",
