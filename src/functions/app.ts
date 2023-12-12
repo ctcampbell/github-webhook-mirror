@@ -6,7 +6,8 @@ export = (app: Probot) => {
     await octokit.repos.createDispatchEvent({
       owner: context.payload.repository.owner.login,
       repo: context.payload.repository.name,
-      event_type: context.name  
+      event_type: context.name,
+      client_payload: context.payload
     });
   });
 }
